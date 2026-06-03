@@ -53,13 +53,17 @@ export default function Hero() {
 
         <div className="mt-10 flex justify-center gap-4">
 
-          <button className="bg-pink-600 px-8 py-4 rounded-xl hover:bg-pink-500 transition">
+          <a
+		  href="#discord"
+		  className="bg-pink-600 px-8 py-4 rounded-xl hover:bg-pink-500 transition-all duration-300 hover:scale-105">
             Join The Kingdom
-          </button>
+          </a>
 
-          <button className="border border-white/20 px-8 py-4 rounded-xl backdrop-blur-md">
+          <a 
+		  href="#media"
+		  className="border border-white/20 px-8 py-4 rounded-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-pink-500/50">
             Watch Highlights
-          </button>
+          </a>
 
         </div>
 
