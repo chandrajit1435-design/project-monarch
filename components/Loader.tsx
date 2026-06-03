@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export default function Loader(): JSX.Element | null {
+export default function Loader() {
 const [loading, setLoading] = useState<boolean>(true);
 const [fadeOut, setFadeOut] = useState<boolean>(false);
 
