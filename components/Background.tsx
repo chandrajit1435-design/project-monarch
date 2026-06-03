@@ -12,11 +12,11 @@ y: 0,
 useEffect(() => {
 const handleMouseMove = (e: MouseEvent) => {
 const x =
-(e.clientX - window.innerWidth / 2) / 15;
+(e.clientX - window.innerWidth / 2) / 30;
 
 
   const y =
-    (e.clientY - window.innerHeight / 2) / 15;
+    (e.clientY - window.innerHeight / 2) / 30;
 
   setOffset({ x, y });
 };
