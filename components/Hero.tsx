@@ -24,24 +24,7 @@ export default function Hero() {
   },[]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-
-      <motion.img
-        src="/monarch-banner.jpg"
-        alt=""
-        animate={{
-          x:offset.x,
-          y:offset.y,
-          scale:1.05
-        }}
-        transition={{
-          type:"spring",
-          stiffness:30
-        }}
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-
-      <div className="absolute inset-0 bg-black/60"/>
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
       <div className="relative z-10 text-center px-6">
 
@@ -51,6 +34,7 @@ export default function Hero() {
           transition={{duration:1}}
           src="/monarch-logo.png"
           className="w-40 mx-auto mb-8"
+		  alt="Project Monarch"
         />
 
         <motion.h1
